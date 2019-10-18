@@ -1,0 +1,20 @@
+naive (10617.971079000026, 0) DSI.csv
+naive (10828.791561999973, 0) IAU.csv
+naive (12946.338492000024, 0) LQD.csv
+naive (9925.184277000011, 0) SPY.csv
+
+lazy (26513.642382, 0) DSI.csv
+lazy (33024.202, 0) IAU.csv
+lazy (21259.087562, 0) LQD.csv
+lazy (32960.78845, 0) SPY.csv
+
+conservLazy (16535.776794, 60) DSI.csv
+conservLazy (28698.215015000038, 40) IAU.csv
+conservLazy (16060.029848999975, 40) LQD.csv
+conservLazy (22983.74152900002, 60) SPY.csv
+
+Conserv (21671.592202999993, 80) DSI.csv
+Conserv (23047.186999999984, 80) IAU.csv
+Conserv (17259.457105999994, 40) LQD.csv
+Conserv (17235.78595899999, 80) SPY.csv
+
