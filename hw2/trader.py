@@ -14,6 +14,8 @@ class Trader():
             self.bought = 0
             self.share = 0
             #print('sell on day {}: {}'.format(day, self.fund))
+    def hold(self):
+          pass
     def final(self, data):
         return self.fund + self.share*data[-1]
     def reset(self):

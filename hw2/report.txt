@@ -13,8 +13,33 @@ conservLazy (28698.215015000038, 40) IAU.csv
 conservLazy (16060.029848999975, 40) LQD.csv
 conservLazy (22983.74152900002, 60) SPY.csv
 
-Conserv (21671.592202999993, 80) DSI.csv
-Conserv (23047.186999999984, 80) IAU.csv
-Conserv (17259.457105999994, 40) LQD.csv
-Conserv (17235.78595899999, 80) SPY.csv
+Conserv (27358.195703999994, [5, 6]) DSI.csv
+Conserv (33024.202, [3, 9]) IAU.csv
+Conserv (21259.087562, [3, 11]) LQD.csv
+Conserv (32960.78845, [3, 8]) SPY.csv
+
+#1
+RSI (4.764854, [33, 74, 24, 4]) DSI.csv
+RSI (7.442661, [42, 92, 11, 6]) IAU.csv
+RSI (2.713741, [31, 98, 17, 8]) LQD.csv
+RSI (5.287983, [29, 92, 22, 6]) SPY.csv
+
+#2
+strongRSI (39244.29454100008, [33, 79, 22, 5, 32]) DSI.csv
+strongRSI (53626.844161999936, [54, 94, 16, 5, 20]) IAU.csv
+strongRSI (26249.104474, [30, 97, 16, 8, 26]) LQD.csv
+strongRSI (44770.96733499998, [30, 82, 22, 5, 26]) SPY.csv
+
+#3
+strongRSI (35870.94150499999, [95, 35, 21, 6, 2]) DSI.csv
+strongRSI (49670.82219100005, [95, 45, 36, 26, 7]) IAU.csv
+strongRSI (27923.023765000005, [90, 40, 36, 26, 17]) LQD.csv
+strongRSI (52001.745214, [95, 50, 46, 36, 17]) SPY.csv
+
+#1+#3
+file=DSI.csv ==> rr=4.764854
+file=IAU.csv ==> rr=7.442661
+file=LQD.csv ==> rr=2.527750
+file=SPY.csv ==> rr=5.224506
+
 
